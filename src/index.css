@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body {
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #24292e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.profile a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0366d6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
